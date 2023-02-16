@@ -1,0 +1,102 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image: url('cidade.avif');
+    background-size: cover;
+}
+main{
+    background-color: white;
+    width: 470px;
+    height: 550px;
+    margin-top: 50px;
+    margin-left: 455px;
+    border-radius: 14px;
+}
+.titulo{
+    text-align: center;
+}
+h1{
+    color: #171616;
+    font-size: 50px;
+    padding-top: 16px;
+    font-family: 'Roboto', sans-serif;
+}
+input{
+    margin-left: 20px;
+    width: 420px;
+    border: 1px solid white;
+    border-bottom: 2px solid #171616;
+    padding: 7px;
+    font-size: 20px;
+}
+placeholder{
+    margin-bottom: 10px;
+}
+pre{
+    font-family: 'Roboto', sans-serif;
+}
+.senha{
+    text-align: right;
+    padding-right: 30px;
+    font-size: 18px;
+}
+a{
+    color: #171616;
+}
+.botao{
+    align-items: center;
+}
+button{
+    border-radius: 25px;
+    background-color: rgb(28, 28, 133);
+    width: 360px;
+    height: 45px;
+    border: none;
+    margin-left: 55px;
+    color: white;
+    font-weight: bold;
+}
+button:hover{
+    background-color: rgb(83, 83, 196);
+    border: 2px solid white;
+}
+.paragrafo{
+    text-align: center;
+    font-size: 15px;
+}
+.facebook{
+    
+    width: 60px;
+    height: 60px;
+    text-align: center;
+}
+.linkdin{
+    
+    text-align: center;
+    width: 60px;
+    height: 60px;
+    margin-left: 50px ;
+}
+.h1{
+    font-size: 30px;
+    color: white;
+}
+.redes{
+    justify-content: center;
+    display: flex;
+}
+.face{
+    background-color: rgb(35, 35, 172);
+    padding-bottom: 10px;
+    border-radius: 100%;
+    margin-bottom: 40px;
+}
+.link{
+    background-color: rgb(2, 108, 247);
+    padding-bottom: 10px;
+    border-radius: 100%;
+    margin-bottom: 40px;
+}
